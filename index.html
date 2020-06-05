@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lawan Covid-19</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+
+    <!--header-->
+    <header id="header">
+        <img id="logo" src = "img/logo.png"  width="75px" />
+        <h1>Lawan Covid-19</h1>
+    </header>
+    <!--Body-->
+    <body>
+        <div id="question-view">
+            <section id="campaign">
+                <h2>Seberapa Risiko Kamu Terjangkit Virus Corona? <br> Yuk Cek Sekarang!</h2>
+                <img src="img/family.jpg" width="400px"/>
+            </section>
+            <section id="boxlist">
+                <div id="question-list">
+                    <h3 id="question">Apakah kamu mengalami demam di atas 38 derajat?</h3>
+                    <button onclick="ya()" class="choice">Ya</button>
+                    <button onclick="tidak()" class="choice">Tidak</button>
+                </div>
+                <div id="hasil">
+                    <h2>Hasil</h2>
+                    <p id="kesimpulan">Kamu termasuk dalam Kategori Risiko Rendah</p>
+                    <p>Terima kasih.<br>
+                        Senang dapat membantu anda.</p>
+                </div>
+                
+            </section>
+        </div>
+        <footer>
+            <h5>copyright &copy; 2020 by Angga_Wijaya</h5>
+        </footer>
+        <script src="covid.js"></script>
+    </body>
+</html>

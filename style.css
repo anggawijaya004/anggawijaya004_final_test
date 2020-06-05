@@ -1,0 +1,102 @@
+
+
+header {
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(160, 220, 255);
+    align-items: center;
+    top: 0;
+    padding: 1vh;
+    position: fixed;
+    
+}
+
+header h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(253, 47, 47);
+}
+
+body {
+    margin-top: 12vh;
+    background-color: teal;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+#question-view{
+    
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#campaign{
+    float: left;
+    width: 40%;
+    background-color: rgb(240, 235, 233);
+    color: rgb(204, 5, 38);
+    padding: 2vw
+}
+
+#boxlist{
+    padding: 2vw;
+    width: 60%;
+    margin: auto;
+    /* background-color: tan; */
+    justify-content: center;
+    align-items: center;
+}
+
+#question-list{
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.choice{
+    background: rgb(214, 235, 204);
+    color: rgb(247, 7, 7);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.choice:hover {
+  color: #37d310;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+}
+
+#hasil{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: rgb(251, 252, 253);
+    
+}
+
+
+
+
+footer {
+    position: fixed;
+    background-color: rgb(5, 62, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 100vw;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: -1;
+    
+}
