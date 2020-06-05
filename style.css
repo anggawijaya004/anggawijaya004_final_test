@@ -26,7 +26,6 @@ body {
 }
 
 #question-view{
-    
     height: 78vh;
     display: flex;
     justify-content: center;
@@ -50,6 +49,24 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#start-view{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: rgb( 250, 250, 5 );
+    color: black;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#start:hover {
+  color: green;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+}
+
 
 #question-list{
     /* display: none; */
